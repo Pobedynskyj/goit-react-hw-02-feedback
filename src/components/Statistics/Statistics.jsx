@@ -1,5 +1,3 @@
-import s from './Statistics.module.css';
-
 function Statistics({ state }) {
   let countTotal = state.good + state.neutral + state.bad;
   let positiveFeedback = ((state.good / countTotal) * 100).toFixed(1);
