@@ -21,14 +21,14 @@ class Feedback extends Component {
     return (
       <>
         <h3 className={s.title}>Please leave feedback</h3>
-        <div onClick={this.handleOnClick}>
-          <button type="button" name="good">
+        <div onClick={this.handleOnClick} className={s.btnTeam}>
+          <button type="button" name="good" className={s.btn}>
             Good
           </button>
-          <button type="button" name="neutral">
+          <button type="button" name="neutral" className={s.btn}>
             Neutral
           </button>
-          <button type="button" name="bad">
+          <button type="button" name="bad" className={s.btn}>
             Bad
           </button>
         </div>
